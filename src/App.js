@@ -11,11 +11,11 @@ import WatchContainer from './Components/WatchContainer';
 function App() {
 
   const routes = createBrowserRouter([{
-    path:'/',
+    path:'/youtube',
     element:<Body />,
     children:[{
 
-      path:'/',
+      path:'/youtbe',
       element:<VideoContainer />,
     },{
       path:'/watch',

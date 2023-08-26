@@ -15,7 +15,7 @@ function App() {
     element:<Body />,
     children:[{
 
-      path:'/youtbe',
+      path:'/',
       element:<VideoContainer />,
     },{
       path:'/watch',

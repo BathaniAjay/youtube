@@ -11,7 +11,7 @@ import WatchContainer from './Components/WatchContainer';
 function App() {
 
   const routes = createBrowserRouter([{
-    path:'/youtube',
+    path:'/',
     element:<Body />,
     children:[{
 
